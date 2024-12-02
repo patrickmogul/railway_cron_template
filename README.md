@@ -9,6 +9,8 @@ This file hits your url and sends Error! in our example.
 
 We're using ntfy.sh to show the output of our request.
 
+Setup your single run python app as main.py and configure away or use our setup with error for anything that might go wrong with a different custom endpoint. This is just an example repo and anything can be done!
+
 # Railway Config
 In the settings you only need to add the following for the start command for main.py:
 
