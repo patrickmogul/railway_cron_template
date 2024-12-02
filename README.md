@@ -21,3 +21,10 @@ You can also setup a 2nd cron job pointing to the same repo with the error.py co
 Then configure the cron job to run on your schedule. The fastest Railway allows is every 5 minutes with:
 
 `*/5 * * * *`
+
+## Railway Variable
+To use our code setup the following variable:
+
+NOTIFY_URL=https://ntfy.sh/yourendpoint
+
+Feel free to customize the endpoint or use your own.
