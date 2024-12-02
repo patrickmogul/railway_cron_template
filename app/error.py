@@ -3,6 +3,7 @@ import os
 
 def notify():
     url = os.environ['NOTIFY_URL']
+    # Custom Error Message
     message = "Error!"
     response = requests.post(url, data=message)
     if response.status_code == 200:

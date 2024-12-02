@@ -3,6 +3,7 @@ import os
 
 def notify():
     url = os.environ['NOTIFY_URL']
+    # Custom Message
     message = "Hi"
     response = requests.post(url, data=message)
     if response.status_code == 200:
