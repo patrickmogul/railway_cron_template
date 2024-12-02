@@ -29,4 +29,4 @@ To use our code setup the following variable:
 
 NOTIFY_URL=https://ntfy.sh/yourendpoint
 
-Feel free to customize the endpoint or use your own.
+Feel free to customize the endpoint or use your own. Throw it all away and do your own python thing! This is just a template, enjoy!
